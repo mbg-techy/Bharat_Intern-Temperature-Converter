@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang =""en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <link rel="stylesheet" href="style5.css">
+        <title>Temp. Converter</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Temperature Converter</h1>
+
+        </div>
+        <div class="wrapper">
+            <div class="container">
+                <label for="Celsius">Celsius</label>
+                <input type="number" id="celsius" oninput="celToFar(),celToKel()">
+            </div>
+            <div class="container">
+                <label for="Fahrenheit">Fahrenheit</label>
+                <input type="number" id="fahrenheit" oninput="farToCel(),farToKel()">
+            </div>
+            <div class="container">
+                <label for="Kelvin">Kelvin</label>
+                <input type="number" id="kelvin" oninput="kelToCel(),kelToFar()">
+            </div>
+        </div>
+        
+        <script src="src4.js"></script>
+    </body>
+</html>
